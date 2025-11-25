@@ -1,0 +1,122 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background: rgba(255,255,255,0.8);
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 900px;
+}
+
+
+.App-logo {
+  height: 60px;
+  pointer-events: none;
+  margin-right: 1rem;
+  float: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background-color: #007bff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+nav.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 1rem;
+}
+
+.navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+}
+
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border-radius: 10px;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table.table th {
+  background: #007bff;
+  color: #fff;
+}
+
+table.table td {
+  color: #333;
+}
+
+button.btn {
+  font-weight: 500;
+  border-radius: 6px;
+  margin-top: 1rem;
+}
+
+h1, h2, h3, h4 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.modal-content {
+  border-radius: 12px;
+}
+
+.modal-header {
+  background: #007bff;
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
